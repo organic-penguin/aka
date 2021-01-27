@@ -1,0 +1,117 @@
+body,html
+{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color:#fff;
+    color:#000;
+    margin:0 auto;
+    padding:0;
+}
+ul.topnav 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+ul.topnav li 
+{
+	float: left;
+}
+ul.topnav li a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) 
+{
+	background-color: #111;
+}
+ul.topnav li a.active 
+{
+	background-color: #4CAF50;
+}
+ul.topnav li.right 
+{
+	float: right;
+}
+.sideform input[type=text],.sideform input[type=password],.sideform select,.sideform textarea
+{
+    width:100%;
+    padding:.5em;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+}
+.sideform input[type=submit],.sideform input[type=reset]
+{
+    font-size:1.25em;
+    padding:.5em;
+    color:#fff;
+    text-decoration:none;
+    background-color:#4CAF50;
+    border:none;
+}
+.sideform
+{
+    background-color:#f0f0f0;
+    padding:2em;
+    max-width:1000px;
+	margin:0 auto;
+}
+input[type=submit]:hover
+{
+    background-color:#45a049;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+    empty-cells:show;
+    border:1px solid #cbcbcb;
+    margin:1em auto;
+}
+td,th{
+    border-left:1px solid #cbcbcb;
+    border-width:0 0 0 1px;
+    font-size:inherit;
+    margin:0;
+    overflow:visible;
+    padding:.5em 1em
+}
+td: first-child,th: first-child{
+    border-left-width:0
+}
+thead{
+    background-color:#e0e0e0;
+    color:#000;
+    text-align:left;
+    vertical-align:bottom
+}
+td{
+    background-color:transparent;
+    border-bottom:1px solid #cbcbcb
+}
+td,tr: nth-child(2n-1) td{
+    background-color:#f2f2f2
+}
+th{
+    background:#e0e0e0;
+    background:-webkit-linear-gradient(#f0f0f0,silver);
+    background:-o-linear-gradient(#f0f0f0,silver);
+    background:-moz-linear-gradient(#f0f0f0,silver);
+    background:linear-gradient(#f0f0f0,silver)
+}
+@media screen and (max-width: 600px) 
+{
+  ul.topnav li.right, 
+  ul.topnav li 
+  {
+	  float: none;
+  }
+}
