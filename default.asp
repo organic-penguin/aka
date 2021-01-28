@@ -20,6 +20,7 @@
 			<li><a href="#">User Guide</a></li>
 			<li><a href="#">Service Guidelines</a></li>
 			<li><a href="#contact">Support (ICM)</a></li>
+			<label style="float:right;color:white;text-align: center;padding: 14px 16px;"><% Response.Write("Welcome " + Request.ServerVariables("AUTH_USER")) %></label>
 		</ul>
 		
 		<form class="sideform" name="qc" method="post" action="#">
